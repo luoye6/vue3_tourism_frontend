@@ -1,0 +1,26 @@
+// 引入清除默认样式
+@import './reset.scss';
+@import "./variable.scss";
+
+//滚动条外观设置
+::-webkit-scrollbar {
+  width: 12px;
+  height: 8px;
+  background-color: #f5f5f5; /* 滚动条背景颜色 */
+}
+
+::-webkit-scrollbar-track {
+  background: $base-menu-background;
+}
+
+::-webkit-scrollbar-thumb {
+  width: 12px;
+  background: linear-gradient(45deg, #009DDC 20%, #82E0F7 40%, #97FFFF 90%);
+  border-radius: 6px;
+}
+
+/* 鼠标悬停在滚动条上时滑块的样式 */
+::-webkit-scrollbar-thumb:hover {
+  background: #ff0000;
+}
+

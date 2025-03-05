@@ -1,0 +1,23 @@
+{
+  "id": "4819867",
+  "name": "面试平台",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "777843",
+      "name": "赞",
+      "font_class": "icon",
+      "unicode": "e651",
+      "unicode_decimal": 58961
+    },
+    {
+      "icon_id": "8497512",
+      "name": "智慧题库",
+      "font_class": "zhihuitiku",
+      "unicode": "e634",
+      "unicode_decimal": 58932
+    }
+  ]
+}

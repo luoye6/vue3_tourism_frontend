@@ -1,0 +1,76 @@
+{
+  "name": "vue3_tourism_frontend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "dev": "pnpm run serve",
+    "pnpm build": "pnpm run build",
+    "npm dev": "npm run serve",
+    "openapi": "ts-node openapi.config.ts"
+  },
+  "eslintIgnore": [
+    "dist",
+    "node_modules"
+  ],
+  "dependencies": {
+    "@types/nprogress": "^0.2.0",
+    "axios": "^1.4.0",
+    "core-js": "^3.8.3",
+    "echarts": "^5.4.2",
+    "md-editor-v3": "^4.8.1",
+    "mitt": "^3.0.1",
+    "nprogress": "^0.2.0",
+    "pinia": "^2.1.4",
+    "qrcode-vue3": "^1.7.1",
+    "sass-loader": "^14.1.1",
+    "vue": "^3.2.13",
+    "vue-clipboard3": "^2.0.0",
+    "vue-router": "^4.0.3",
+    "vue3-danmaku": "^1.6.1"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.4.0",
+    "@typescript-eslint/parser": "^5.4.0",
+    "@umijs/openapi": "^1.13.0",
+    "@vue/cli-plugin-babel": "~5.0.0",
+    "@vue/cli-plugin-eslint": "~5.0.0",
+    "@vue/cli-plugin-router": "~5.0.0",
+    "@vue/cli-plugin-typescript": "~5.0.0",
+    "@vue/cli-service": "~5.0.0",
+    "@vue/eslint-config-typescript": "^9.1.0",
+    "element-plus": "^2.9.0",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-vue": "^8.0.3",
+    "openapi-typescript-codegen": "^0.29.0",
+    "prettier": "^2.4.1",
+    "sass": "^1.63.6",
+    "typescript": "~4.5.5"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/vue3-essential",
+      "eslint:recommended",
+      "@vue/typescript/recommended",
+      "plugin:prettier/recommended"
+    ],
+    "parserOptions": {
+      "ecmaVersion": 2020
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead",
+    "not ie 11"
+  ]
+}
