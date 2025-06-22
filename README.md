@@ -16,7 +16,7 @@
 + [项目前端地址](https://gitee.com/luoye6/vue3_tourism_frontend)
 + [项目后端地址](https://gitee.com/luoye6/vue3_tourism_backend)
 
-[![star](https://gitee.com/luoye6/vue3_tourism_backend/badge/star.svg?theme=dark)](https://gitee.com/luoye6/vue3_tourism_frontend)  [![gitee](https://badgen.net/badge/gitee/falle22222n-leaves/red)](https://gitee.com/luoye6)  [![github](https://badgen.net/badge/github/github?icon)](https://github.com/luoye6)
+[![star](https://gitee.com/luoye6/vue3_tourism_backend/badge/star.svg?theme=dark)](https://gitee.com/luoye6/vue3_tourism_frontend)  [![gitee](https://badgen.net/badge/gitee/luoye6/red)](https://gitee.com/luoye6)  [![github](https://badgen.net/badge/github/github?icon)](https://github.com/luoye6)
 
 ## ☀️个人介绍
 
